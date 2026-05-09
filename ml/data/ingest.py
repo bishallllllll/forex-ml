@@ -24,7 +24,9 @@ def _standardize_columns(df: pd.DataFrame) -> pd.DataFrame:
 def fetch_yfinance(pair: str, period: str = "2y", interval: str = "1d") -> pd.DataFrame:
     ticker = f"{pair}=X"
     df = yf.download(ticker, period=period, interval=interval, auto_adjust=True)
-    df.columns = [c.lower() for c in df.columns]
+    if isinstance(df.columns, pd.MultiIndex):
+        df.columns = df.columns.get_level_values(0)
+    df.columns = [str(c).lower() for c in df.columns]
     df.index = pd.to_datetime(df.index)
     return df
 

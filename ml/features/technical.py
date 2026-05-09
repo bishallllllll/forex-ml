@@ -36,9 +36,6 @@ def _compute_single_pair(df: pd.DataFrame) -> pd.DataFrame:
     return out
 
 
-compute_indicators = compute_indicators_multi
-
-
 def compute_indicators_multi(df: pd.DataFrame) -> pd.DataFrame:
     if "pair" not in df.columns:
         return _compute_single_pair(df)
@@ -48,6 +45,9 @@ def compute_indicators_multi(df: pd.DataFrame) -> pd.DataFrame:
         groups.append(processed)
     result = pd.concat(groups).sort_index()
     return result
+
+
+compute_indicators = compute_indicators_multi
 
 
 def shift_features(df: pd.DataFrame, shift: int = 1) -> pd.DataFrame:
