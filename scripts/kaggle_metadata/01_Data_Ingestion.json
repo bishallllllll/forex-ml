@@ -1,0 +1,13 @@
+{
+  "id": "bishalsarkarr/forex-ml-01-data-ingestion",
+  "title": "Forex ML - 01 Data Ingestion",
+  "code_file": "../../ml/notebooks/01_Data_Ingestion.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}

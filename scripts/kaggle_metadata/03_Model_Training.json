@@ -1,0 +1,13 @@
+{
+  "id": "bishalsarkarr/forex-ml-03-model-training",
+  "title": "Forex ML - 03 Model Training",
+  "code_file": "../../ml/notebooks/03_Model_Training.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": ["bishalsarkarr/forex-ml-02-feature-engineering"]
+}

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# ML pipeline data and artifacts
+ml/data/raw/
+ml/data/processed/
+ml/checkpoints/
+wandb/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter
+.jupyter/

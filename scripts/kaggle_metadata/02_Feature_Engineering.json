@@ -1,0 +1,13 @@
+{
+  "id": "bishalsarkarr/forex-ml-02-feature-engineering",
+  "title": "Forex ML - 02 Feature Engineering",
+  "code_file": "../../ml/notebooks/02_Feature_Engineering.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": ["bishalsarkarr/forex-ml-01-data-ingestion"]
+}
